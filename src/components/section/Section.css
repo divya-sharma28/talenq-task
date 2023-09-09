@@ -1,0 +1,31 @@
+.section{
+    height: 100vh;
+    padding: 10px 0;
+    position: relative;
+}
+
+.secId{
+    margin-left: 20px !important;
+    font-size: 14px !important;
+}
+
+.section h1{
+    text-align: center;
+    content:"";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* --animate-duration: 1s; */
+}
+
+.section:nth-child(2){
+    background-color: #003892;
+    color: white;
+}
+.section:nth-child(3){
+    background-color: #3670cf;
+}
+.section:nth-child(4){
+    background-color: rgb(129, 168, 231);
+}
